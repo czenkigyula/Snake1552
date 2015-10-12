@@ -1,0 +1,1 @@
+ez itt egy program és nem egy gagyika
