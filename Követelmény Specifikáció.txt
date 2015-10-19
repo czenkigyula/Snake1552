@@ -1,2 +1,4 @@
 Használatával gyorsan elérhetõek legyenek az átváltások
 Legyen könnyen kezelhetõ
+1. Elsõsorban a legfontosabb dolog a programmal kapcsolatban, hogy a felhasználónak ne kelljen számtalan programot használni, ha esedlegesen nem tud bizonyos mértékegységet
+   átváltani! Minden mértékegységet egy helyen lehessen átkonvertálni...
