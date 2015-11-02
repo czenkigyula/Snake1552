@@ -4,3 +4,4 @@ Legyen könnyen kezelhetõ
    átváltani! Minden mértékegységet egy helyen lehessen átkonvertálni...
 2. valami
 3.Átláthatóság
+4. Személyre szabhatóság
