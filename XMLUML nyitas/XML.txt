@@ -1,0 +1,16 @@
+OpenFileDialog fDialog = new OpenFileDialog(); 
+fDialog.Title = "Open XML/UML File";
+fDialog.Filter = "XML Files|*.xml|UML Files|*.uml";
+fDialog.InitialDirectory = @"C:\";
+if(fDialog.ShowDialog() == DialogResult.OK)
+
+{
+
+MessageBox.Show(fDialog.FileName.ToString());
+
+}
+
+fDialog.AddExtension = true;
+fDialog.CheckFileExists = true;
+fDialog.InitialDirectory = @"C:\Windows";
+fDialog.ShowHelp = true;
