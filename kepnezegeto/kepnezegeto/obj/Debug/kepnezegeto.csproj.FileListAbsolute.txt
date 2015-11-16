@@ -1,9 +1,0 @@
-D:\Snake1552\kepnezegeto\kepnezegeto\bin\Debug\kepnezegeto.exe.config
-D:\Snake1552\kepnezegeto\kepnezegeto\bin\Debug\kepnezegeto.exe
-D:\Snake1552\kepnezegeto\kepnezegeto\bin\Debug\kepnezegeto.pdb
-D:\Snake1552\kepnezegeto\kepnezegeto\obj\Debug\kepnezegeto.csprojResolveAssemblyReference.cache
-D:\Snake1552\kepnezegeto\kepnezegeto\obj\Debug\kepnezegeto.Form1.resources
-D:\Snake1552\kepnezegeto\kepnezegeto\obj\Debug\kepnezegeto.Properties.Resources.resources
-D:\Snake1552\kepnezegeto\kepnezegeto\obj\Debug\kepnezegeto.csproj.GenerateResource.Cache
-D:\Snake1552\kepnezegeto\kepnezegeto\obj\Debug\kepnezegeto.exe
-D:\Snake1552\kepnezegeto\kepnezegeto\obj\Debug\kepnezegeto.pdb
