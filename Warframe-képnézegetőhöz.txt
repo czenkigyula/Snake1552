@@ -1,6 +1,6 @@
 https://www.youtube.com/watch?v=xps8l6Atidk //winform jpg megnyitás, info kilistázás
-https://www.youtube.com/watch?v=rHdvdkqBzKo
-https://www.youtube.com/watch?v=p5tP4_vAgq4  
+https://www.youtube.com/watch?v=rHdvdkqBzKo // adatbázist hoz létre amibõl megnyitja a programot és új elemeket tud hozzáadni
+https://www.youtube.com/watch?v=p5tP4_vAgq4 // kép megnyitás,mentés és kiírja a képfelbontást
 https://www.youtube.com/watch?v=N0b67Q-Djao
 https://www.youtube.com/watch?v=VwXvTNupW48
 https://www.youtube.com/watch?v=xps8l6Atidk // ki tudsz választani egy autós képet és kiírja hozzá az adatokat

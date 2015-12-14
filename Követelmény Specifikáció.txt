@@ -1,7 +1,8 @@
-Használatával gyorsan elérhetõek legyenek az átváltások
-Legyen könnyen kezelhetõ
-1. Elsõsorban a legfontosabb dolog a programmal kapcsolatban, hogy a felhasználónak ne kelljen számtalan programot használni, ha esedlegesen nem tud bizonyos mértékegységet
-   átváltani! Minden mértékegységet egy helyen lehessen átkonvertálni...
-2. valami
-3.Átláthatóság
-4. Személyre szabhatóság
+Jelenlegi helyzet leírása: Szükség van olyan fájlkezelõ programra,
+ amelyen két ablakon keresztül párhuzamosan láthatjuk fájljainkat és ezeket tudjuk
+ törölni, másolni, áthelyezni egyik meghajtóról a másikra.
+Vágyálom rendszer leírása: - könnyen kezelhetõ
+			     - személyre szabható felület
+
+Követelmény lista: -fájlok másolása, áthelyezése, megnyitása, új mappa létrehozása, fájlok törlése
+
