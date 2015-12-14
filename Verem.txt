@@ -1,0 +1,99 @@
+A verem 
+-
+Stack
+?
+A verem adatstruktúrát valósítja meg.
+?
+Konstruktora generikus, paraméter nélküli:
+?
+Stack
+<
+T
+>(): verem létrehozása, 
+T
+az elemek típusa (pl.: 
+int
+)
+?
+Fõ metódusok:
+?
+void
+Push
+( 
+T
+item
+): elem hozzáadása a veremhez
+?
+T
+Pop
+(): elem kiolvasása a verembõl, ezután az elem törlõdik a 
+vermbõl
+(LIFO: 
+last
+in
+first
+out, az utolsónak berakott elem kerül 
+kiolvasásra legelõször)
+?
+void
+Clear
+(): a 
+verem kiürítése
+?
+T[] 
+ToArray
+(): a 
+verem átalakítása 
+tömbbé
+?
+int
+Count
+{ 
+get
+; }: elemek 
+száma
+?
+A verem belsejében lévõ elemek nem olvashatóak ki.
+?
+A verem mûködési szempontból a sortól csak az elemek 
+kiolvasási sorrendjében tér el.
+A 
+verem 
+-
+Stack
+//Verem létrehozása
+Stack
+<
+int
+> verem = 
+new
+Stack
+<
+int
+>();
+//Elemek hozzáadása
+verem.Push
+(4);
+verem.Push
+(6);
+verem.Push
+(6);
+//Összeg kiszámítása
+int
+osszeg
+= 0;
+while
+(
+verem.Count
+> 0)
+{
+osszeg
++= 
+verem.Pop
+();
+}
+Console
+.WriteLine
+(
+osszeg
+);
