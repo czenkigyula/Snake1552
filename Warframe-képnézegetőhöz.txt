@@ -3,6 +3,12 @@ https://www.youtube.com/watch?v=rHdvdkqBzKo // adatbázist hoz létre amibõl megny
 https://www.youtube.com/watch?v=p5tP4_vAgq4 // kép megnyitás,mentés és kiírja a képfelbontást
 https://www.youtube.com/watch?v=N0b67Q-Djao
 https://www.youtube.com/watch?v=VwXvTNupW48
+<<<<<<< HEAD
+https://www.youtube.com/watch?v=xps8l6Atidk
+https://www.youtube.com/playlist?list=PLB9A3A66A1425E6B1 (Komplett képszerkesztõ)
+https://www.youtube.com/watch?v=xMOoEuEY-WY (image rotate)
+=======
 https://www.youtube.com/watch?v=xps8l6Atidk // ki tudsz választani egy autós képet és kiírja hozzá az adatokat
 https://www.youtube.com/playlist?list=PLB9A3A66A1425E6B1 (Komplett képszerkesztõ)
 http://johanyak.hu/?q=hu/vizualis_programozas_segedlet / Képnézegetõ program kezdete leírással
+>>>>>>> 4e563d484a1b4a4aaaf28adfb1df50f2e60291ff
