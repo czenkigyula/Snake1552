@@ -1,8 +1,0 @@
-Jelenlegi helyzet leírása: Szükség van olyan fájlkezelõ programra,
- amelyen két ablakon keresztül párhuzamosan láthatjuk fájljainkat és ezeket tudjuk
- törölni, másolni, áthelyezni egyik meghajtóról a másikra.
-Vágyálom rendszer leírása: - könnyen kezelhetõ
-			     - személyre szabható felület
-
-Követelmény lista: -fájlok másolása, áthelyezése, megnyitása, új mappa létrehozása, fájlok törlése
-
