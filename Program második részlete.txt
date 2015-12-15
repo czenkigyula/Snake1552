@@ -1,0 +1,16 @@
+   private void button3_Click_1(object sender, EventArgs e)
+        {
+            for (int x = 0; x < newBitmap.Width; x++)
+            {
+                for (int y = 0; y < newBitmap.Height; y++)
+                {
+                    Color originalColor = newBitmap.GetPixel(x, y);
+                    int grayScale = (int)((originalColor.R * .3) + (originalColor.G * .59) + (originalColor.B * .11));
+
+                    Color newColor = Color.FromArgb(grayScale, grayScale, grayScale);
+                    newBitmap.SetPixel(x, y, newColor);
+                }
+            }
+             pictureBox1.Image = newBitmap;
+
+        }
