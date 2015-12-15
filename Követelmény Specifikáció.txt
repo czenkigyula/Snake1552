@@ -1,0 +1,8 @@
+•	Jelenlegi helyzet leírása:Szükség van egy olyan programra amivel képeket tudunk megnyitni , nagyítani, kicsinyítni, forgatni, szerkeszteni. 
+•	Vágyálom rendszer leírása:Szeretném, hogy könnyen kezelhetõ legyen , Szép megjelenésû legyen, Átlátható legyen, személyemre szabottan tudjam használni
+•	A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása: Más nem használhatja
+•	Jelenlegi üzleti folyamatok modellje.
+•	Igényelt üzleti folyamatok modellje.
+•	Követelménylista:Mentés másként, Megnyitni, Nagyítani, Kicsinyíteni, 
+•	Irányított és szabad szöveges riportok szövege.
+•	Fogalomszótár.
