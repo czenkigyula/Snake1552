@@ -28,6 +28,10 @@ Kontraszt-Egy kép legsötétebb (fekete) és legvilágosabb (fehér) árnyalatai közöt
 
 Dombornyomás (Emboss)-Dombornyomott hatásúvá teszik a képet
 
+Help(Help provider) - A gombokra eggyessével kattintva jobb klikkel lehet megnyitni a súgókat
+
+
+
 
 
 
