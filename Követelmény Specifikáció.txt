@@ -4,24 +4,23 @@ Leírás:
 Szükség van egy olyan programra amivel képeket tudunk megnyitni, elmenteni, szerkeszten a képek sémájának módosításával különbözõ tulajdonságok szerint.
 								  
 A következõ funkcionális igények merülnek fel a program létrehozásának elõfeltételeként:
--könnyen kezelhetõ legyen 
--ne legyen idõigényes,
--Szép megjelenésû legyen,
--Átlátható legyen,
--bõrhibák eltüntetése ,
--lehessen tükrözni,
--kicsinyíteni, 
--nagyítani,
--több kép összeszerkesztése,
--gyermekkori kép beszúrásánál jelenítsen meg egy olyan szerkesztett képet ,
+- Könnyen kezelhetõ legyen, 
+- Használata ne legyen idõigényes,
+- Szép megjelenésû legyen,
+- Átlátható legyen,
+- A programmal lehetségen legyen a tükrözés, és különbözõ sémabeli módosítások
+- Több kép összeszerkesztése,
+- gyermekkori kép beszúrásánál jelenítsen meg egy olyan szerkesztett képeta,
  ahol idõsebbnek tûnik, 
--applikációként is mûködjön ,
-- mûködjön érintéssel ,
--személyemre szabottan tudjam használni
-
-A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása:
- Más nem használhatja Jelenlegi üzleti folyamatok modellje.
+- Applikációként is mûködjön,
+- Mûködjön érintéssel ,
+- Személyemre szabottan lehessen használni!
 
 
+Architekturális igények
+-
+
+Platform szerinti igények:
+- 
 
 Követelménylista: Mentés másként, Megnyitni, Nagyítani, Kicsinyíteni, Kontraszt, fényerõsség állítása, 
