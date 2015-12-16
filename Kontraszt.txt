@@ -1,0 +1,29 @@
+private void trackBar3_Scroll(object sender, EventArgs e)
+        {
+
+            label5.Text = trackBar3.Value.ToString();
+
+            contrast = 0.04f * trackBar3.Value;
+
+            Bitmap bm = new Bitmap(newBitmap.Width, newBitmap.Height);
+
+            Graphics g = Graphics.FromImage(bm);
+
+            ImageAttributes ia = new ImageAttributes();
+
+            ColorMatrix cm=new ColorMatrix(new float [][] {
+                new float []{contrast, 0f,0f,0f,0f},
+                new float[]{0f,contrast,0f,0f,0f},
+                new float[]{0f,0f,contrast,0f,0f},
+                new float[]{0f,0f,0f,1f,0f},
+
+                new float[]{0.001f,0.001f,0.001f,0f,1f}});
+
+            ia.SetColorMatrix(cm);
+
+            g.DrawImage(newBitmap, new Rectangle(0, 0, newBitmap.Width, newBitmap.Height), 0, 0, newBitmap.Width, newBitmap.Height,GraphicsUnit.Pixel, ia);
+
+            g.Dispose();
+
+            ia.Dispose();
+            pictureBox1.Image = bm;
