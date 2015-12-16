@@ -1,0 +1,43 @@
+ private void trackBar2_Scroll(object sender, EventArgs e)
+        {
+            label3.Text = trackBar2.Value.ToString();
+            pictureBox1.Image = AdjustBrightness(newBitmap, trackBar2.Value);
+
+        }
+        public static Bitmap AdjustBrightness(Bitmap Image, int Value)
+        {
+            Bitmap TempBitmap = Image;
+
+            float FinalValue = (float)Value / 255.0f;
+            
+            Bitmap NewBitmap = new Bitmap(TempBitmap.Width, TempBitmap.Height);
+            
+            Graphics NewGraphics = Graphics.FromImage(NewBitmap);
+            
+            float[][] FloatColorMatrix={
+                    new float[] {1,0,0,0,0},
+                    new float[] {0,1,0,0,0},
+                    new float[] {0,0,1,0,0},
+                    new float[] {0,0,0,1,0},
+                    new float[] {FinalValue, FinalValue, FinalValue,1, 1}
+                };
+            ColorMatrix NewColorMatrix= new ColorMatrix(FloatColorMatrix);
+
+            ImageAttributes Attributes= new ImageAttributes();
+            
+            Attributes.SetColorMatrix(NewColorMatrix);
+            
+            NewGraphics.DrawImage(TempBitmap, new Rectangle(0, 0, TempBitmap.Width, TempBitmap.Height), 0, 0, TempBitmap.Width,TempBitmap.Height,GraphicsUnit.Pixel,Attributes);
+            
+            Attributes.Dispose();
+            
+            NewGraphics.Dispose();
+            
+            return NewBitmap;
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
