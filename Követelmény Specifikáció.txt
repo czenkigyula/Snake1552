@@ -23,6 +23,7 @@ Architekturális igények:
 Platform szerinti igények:
 - Fõ szempont, hogy a program a legtöbb operációs rendszeren (Linux, Windows, Mac OS) használható legyen, valamint megfelelõen optimizált.
 - Valamint a további fejlesztés során elérhetõ legyen a program mobil platformon is, elsõsorban Android alapú rendszeren, majd a következõekben iOS és Windows Phone rendszeren is.
+-A program C nyelven írodik azon belül C# Windows Form rendszeren belül.
  
 
 Programon belüli funkciók - Mentés másként, Megnyitás, Forgatás, Nagyítás, Kontraszt, Fényerõsség, Invertálás, Szürkeárnyalat, Gamma, Homályosítás.
