@@ -1,5 +1,11 @@
 Funkcionális Specifikáció
 
+A program képes képeket megnyitni, elmenteni, szerkeszteni, a képek sémáját módosításával különbözõ tulajdonságok szerint.
+Saját igényeinknek megfelelõen tudjunk személyre szabni az általunk kívánt képet.
+
+
+Funkciók:
+
 Megnyitás - Kiválasztom a meghajtómról az aktuális képet amit szeretnénk megnyitni.
 	    JPG, BMP, PNG, GIF tipusú fájlokat tudunk kezelni.
 
@@ -23,10 +29,11 @@ Gamma - A gamma korrekció egy kép képpontjainak fényerejére, illetve a képpontok
 
 Kontraszt - Egy kép legsötétebb (fekete) és legvilágosabb (fehér) árnyalatai közötti arány, viszonyszámmal kifejezve. 
 
+Dombornyomás (Emboss) - Dombornyomott hatásúvá teszik a képet
 
-A gombok forráskódja használatuk szerint külön txt.ben vannak felsorolva.
 
-Dombornyomás (Emboss)-Dombornyomott hatásúvá teszik a képet
+	A gombok forráskódja használatuk szerint külön txt.ben vannak felsorolva.
+
 
 
 
