@@ -1,0 +1,21 @@
+ private void button5_Click(object sender, EventArgs e)
+        {
+
+            for (int x = 0; x < newBitmap.Width; x++)
+            {
+                for (int y = 0; y < newBitmap.Height; y++)
+                {
+                    Color pixel = newBitmap.GetPixel(x, y);
+
+                    int red = pixel.R;
+                    int green = pixel.G;
+                    int blue = pixel.B;
+
+
+                    newBitmap.SetPixel(x, y, Color.FromArgb(255 - red, 255 - blue, 255 - blue));
+                }
+
+            }
+
+            pictureBox1.Image = newBitmap;
+        }
