@@ -1,30 +1,27 @@
-Jelenlegi helyzet leírása: Szükség van egy olyan programra amivel -képeket tudunk megnyitni, elmenteni valamint 
-								  a képek sémáját tudjuk módosítan különbözõ tulajdonságok szerint
-								  -nagyítani,		
- 								  -kicsinyítni, 
-								  -forgatni,
-								  -szerkeszteni. 
-Vágyálom rendszer leírása: -Szeretném,
- 			   -hogy könnyen kezelhetõ legyen 
-			   -ne legyen idõigényes,
- 			   -Szép megjelenésû legyen,
-			   -Átlátható legyen,
- 			   -bõrhibák eltüntetése ,
- 			   -lehessen tükrözni,
-			   -kicsinyíteni, 
-			   -nagyítani,
- 			   -több kép összeszerkesztése,
- 			   -gyermekkori kép beszúrásánál jelenítsen meg egy olyan szerkesztett képet ,
-	 		    ahol idõsebbnek tûnik, 
-			   -applikációként is mûködjön ,
-			   - mûködjön érintéssel ,
-			   -személyemre szabottan tudjam használni
+Követelmény Specifikáció
+
+Leírás:
+Szükség van egy olyan programra amivel képeket tudunk megnyitni, elmenteni, szerkeszten a képek sémájának módosításával különbözõ tulajdonságok szerint.
+								  
+A következõ funkcionális igények merülnek fel a program létrehozásának elõfeltételeként:
+-könnyen kezelhetõ legyen 
+-ne legyen idõigényes,
+-Szép megjelenésû legyen,
+-Átlátható legyen,
+-bõrhibák eltüntetése ,
+-lehessen tükrözni,
+-kicsinyíteni, 
+-nagyítani,
+-több kép összeszerkesztése,
+-gyermekkori kép beszúrásánál jelenítsen meg egy olyan szerkesztett képet ,
+ ahol idõsebbnek tûnik, 
+-applikációként is mûködjön ,
+- mûködjön érintéssel ,
+-személyemre szabottan tudjam használni
 
 A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása:
  Más nem használhatja Jelenlegi üzleti folyamatok modellje.
 
-Igényelt üzleti folyamatok modellje.
 
-Követelménylista: Mentés másként, Megnyitni, Nagyítani, Kicsinyíteni, jó kontraksz, fényerõsség állítása, 
-Irányított és szabad szöveges riportok szövege.
-Fogalomszótár.
+
+Követelménylista: Mentés másként, Megnyitni, Nagyítani, Kicsinyíteni, Kontraszt, fényerõsség állítása, 
