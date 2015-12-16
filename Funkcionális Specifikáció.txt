@@ -26,3 +26,8 @@ Gamma-A gamma korrekció egy kép képpontjainak fényerejére, illetve a képpontok e
 
 Kontraszt-Egy kép legsötétebb (fekete) és legvilágosabb (fehér) árnyalatai közötti arány, viszonyszámmal kifejezve. 
 
+Dombornyomás (Emboss)-Dombornyomott hatásúvá teszik a képet
+
+
+
+
