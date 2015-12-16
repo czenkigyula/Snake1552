@@ -1,0 +1,130 @@
+private void button5_Click(object sender, EventArgs e)
+        {
+
+            for (int x = 0; x < newBitmap.Width; x++)
+            {
+                for (int y = 0; y < newBitmap.Height; y++)
+                {
+                    Color pixel = newBitmap.GetPixel(x, y);
+
+                    int red = pixel.R;
+                    int green = pixel.G;
+                    int blue = pixel.B;
+
+
+                    newBitmap.SetPixel(x, y, Color.FromArgb(255 - red, 255 - blue, 255 - blue));
+                }
+
+            }
+
+            pictureBox1.Image = newBitmap;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Bitmap nB = new Bitmap(newBitmap.Width, newBitmap.Height);
+
+            for (int x = 1; x <= newBitmap.Width - 1; x++)
+            {
+                for (int y = 1; y <= newBitmap.Height - 1; y++)
+                {
+
+                    nB.SetPixel(x, y, Color.DarkGray);
+                }
+            }
+            for (int x = 1; x <= newBitmap.Width-1; x++)
+            {
+
+                for (int y = 1; y <= newBitmap.Height-1; y++)
+                {
+
+                    try
+                    {
+
+                        Color pixel = newBitmap.GetPixel(x, y);
+
+                        int colVal = (pixel.R + pixel.G + pixel.B);
+
+                        if (lastCol == 0)
+                        {
+                            lastCol = (pixel.R + pixel.G + pixel.B);
+                        }
+                        int diff;
+
+                        if (colVal > lastCol)
+                        {
+
+                            diff = colVal - lastCol;
+                        }
+                        else
+                        {
+                            diff = lastCol - colVal;
+                        }
+
+                        if (diff > 100)
+                        {
+
+                            nB.SetPixel(x, y, Color.Gray);
+
+                            lastCol = colVal;
+                        }
+
+                    }
+                    catch (Exception)
+                    {
+                        
+                        
+                    }
+                    
+                }
+                
+            }
+            for (int y = 1; y <= newBitmap.Height-1; y++)
+            {
+
+                for (int x = 1; x <= newBitmap.Width-1; x++)
+                {
+
+                    try
+                    {
+
+                        Color pixel = newBitmap.GetPixel(x, y);
+                        
+                        int colVal = (pixel.R + pixel.G + pixel.B);
+
+                        if (lastCol==0)
+                        {
+                            lastCol = (pixel.R + pixel.G + pixel.B);
+
+                        }
+
+                        int diff;
+
+                        if (colVal>lastCol)
+                        {
+                            diff = colVal - lastCol;
+                        }
+                        else
+                        {
+                            diff = lastCol - colVal;
+                        }
+                        if (diff>100)
+                        {
+
+                            nB.SetPixel(x, y, Color.Gray);
+
+                            lastCol = colVal;
+                            
+                        }
+                    }
+                    catch (Exception)
+                    {
+                        
+                        
+                    }
+                    
+                }
+                
+            }
+
+            pictureBox1.Image = nB;
