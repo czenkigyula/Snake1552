@@ -1,0 +1,33 @@
+  private void button4_Click(object sender, EventArgs e)
+        {
+            for (int x = blurAmount; x <= newBitmap.Width-blurAmount; x++)
+            {
+                for (int y = blurAmount; y <= newBitmap.Height-blurAmount; y++)
+                {
+                    try
+                    {
+                        Color prevX = newBitmap.GetPixel(x - blurAmount, y);
+                        Color nextX = newBitmap.GetPixel(x + blurAmount, y);
+                        Color prevY = newBitmap.GetPixel(x, y - blurAmount);
+                        Color nextY = newBitmap.GetPixel(x, y + blurAmount);
+
+                        int avgR= (int) ((prevX.R + nextX.R + prevY.R + nextY.R) / 4);
+                        int avgG = (int)((prevX.G + nextX.G + prevY.G + nextY.G) / 4);
+                        int avgB = (int)((prevX.B + nextX.B + prevY.B + nextY.B) / 4);
+
+                        newBitmap.SetPixel(x, y, Color.FromArgb(avgR, avgG, avgB));
+                        
+                    }
+                    catch (Exception)
+                    {}
+
+                }
+            }
+            pictureBox1.Image = newBitmap;
+
+        }
+
+        private void updateBlue(object sender, EventArgs e)
+        {
+            blurAmount = int.Parse(trackBar1.Value.ToString());
+        }
