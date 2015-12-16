@@ -26,3 +26,8 @@ Kontraszt - Egy kép legsötétebb (fekete) és legvilágosabb (fehér) árnyalatai köz
 
 A gombok forráskódja használatuk szerint külön txt.ben vannak felsorolva.
 
+Dombornyomás (Emboss)-Dombornyomott hatásúvá teszik a képet
+
+
+
+
