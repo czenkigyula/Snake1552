@@ -1,4 +1,5 @@
-Jelenlegi helyzet leírása: Szükség van egy olyan programra amivel -képeket tudunk megnyitni 
+Jelenlegi helyzet leírása: Szükség van egy olyan programra amivel -képeket tudunk megnyitni, elmenteni valamint 
+								  a képek sémáját tudjuk módosítan különbözõ tulajdonságok szerint
 								  -nagyítani,		
  								  -kicsinyítni, 
 								  -forgatni,
