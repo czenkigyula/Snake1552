@@ -1,0 +1,20 @@
+private void trackBar4_Scroll(object sender, EventArgs e)
+        {
+            label7.Text = trackBar4.Value.ToString();
+
+            gamma = 0.04f * trackBar4.Value;
+
+            Bitmap bm = new Bitmap(newBitmap.Width, newBitmap.Height);
+
+            Graphics g = Graphics.FromImage(bm);
+
+            ImageAttributes ia = new ImageAttributes();
+
+            ia.SetGamma(gamma);
+
+            g.DrawImage(newBitmap, new Rectangle(0, 0, newBitmap.Width, newBitmap.Height), 0, 0, newBitmap.Width, newBitmap.Height, GraphicsUnit.Pixel, ia);
+
+            g.Dispose();
+
+            ia.Dispose();
+            pictureBox1.Image = bm;
