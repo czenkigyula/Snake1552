@@ -3,8 +3,10 @@ Funkcionális Specifikáció
 A program képes képeket megnyitni, elmenteni, szerkeszteni, a képek sémáját módosításával különbözõ tulajdonságok szerint.
 Saját igényeinknek megfelelõen tudjunk személyre szabni az általunk kívánt képet.
 
-
-Funkciók:
+A program futtatása után minden funkciónk elérhetõ lesz,
+ezeknek a mûködését részletezzük az alábbiakban
+ 
+Funkciók részletezése:
 
 Megnyitás - Kiválasztom a meghajtómról az aktuális képet amit szeretnénk megnyitni.
 	    JPG, BMP, PNG, GIF tipusú fájlokat tudunk kezelni.
