@@ -1,0 +1,5 @@
+!!Ha megnyomok egy gombot az hogyan mûködik!!
+Megnyitás- Kiválasztom a meghajtómról az aktuális képet amit szeretnénk megnyitni, jpeg,bmp,png,gif tipusú fájlokat tudunk kezelni.
+Mentés-Az aktuális változásokat szeretném vele menteni vagy egy új néven , hogy megmaradjon a  másik kép vagy pedig felülírjuk a szerkesztett kép eredetijét.Tudok menteni pl egy JPG képet más formátumba .JPG,BMP,PNG,GIF tipusú képeket tudunk ezzel a programmal menteni.
+Szürkésítés-Ezzel a nyomógombbal az aktuális képem szinét változtatom meg szürkés árnyalatúra.
+Homályosítás-Ezzel a funkcióval elõsször mikor megnyitom a képet aztán kiválasztok a trackbaron egy számomra tetszõ mélységet és így homályosítja el a kellõképpen.
