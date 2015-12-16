@@ -1,20 +1,16 @@
 Követelmény Specifikáció
 
 Leírás:
-Szükség van egy olyan programra amivel képeket tudunk megnyitni, elmenteni, szerkeszten a képek sémájának módosításával különbözõ tulajdonságok szerint.
+Szükség van egy olyan programra amivel képeket tudunk megnyitni, elmenteni, szerkeszteni a képek sémájának módosításával különbözõ tulajdonságok szerint.
 								  
 A következõ funkcionális igények merülnek fel a program létrehozásának elõfeltételeként:
-- Könnyen kezelhetõ legyen, 
+- Könnyen kezelhetõ legyen,
 - Használata ne legyen idõigényes,
-- Szép megjelenésû legyen,
-- Átlátható legyen,
-- A programmal lehetségen legyen a tükrözés, és különbözõ sémabeli módosítások
-- Több kép összeszerkesztése,
-- gyermekkori kép beszúrásánál jelenítsen meg egy olyan szerkesztett képeta,
- ahol idõsebbnek tûnik, 
-- Applikációként is mûködjön,
-- Mûködjön érintéssel ,
-- Személyemre szabottan lehessen használni!
+- Szép megjelenésû, átlátható legyen,
+- A programmal tudjunk tükrözni, és különbözõ sémabeli módosítások (kontraszt, gamma, ivertálás, homályosítés, fényerõsség, szürkeárnyalat) legyenek elérhetõek,
+- A program mûködjön hibamentesen, ne legyen lefagyás a program használata közben,
+- Személyemre szabottan lehessen használni,
+- Tartalmazzon a felhasználó számára információkat, melyek által gyorsan elsajátíthatjuk a program használatát.
 
 
 Architekturális igények
