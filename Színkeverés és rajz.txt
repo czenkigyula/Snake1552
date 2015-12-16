@@ -1,0 +1,30 @@
+private void pictureBox2_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (choose)
+            {
+                Bitmap bmp = (Bitmap)pictureBox2.Image.Clone();
+                paintcolor = bmp.GetPixel(e.X, e.Y);
+                red.Value = paintcolor.R;
+                red.Value = paintcolor.G;
+                red.Value = paintcolor.B;
+                red.Value = paintcolor.A;
+                red.Value = paintcolor.R.ToString();
+                red.Value = paintcolor.G.ToString();
+                red.Value = paintcolor.B.ToString();
+                red.Value = paintcolor.A.ToString();
+            }
+        }
+
+        private void pictureBox2_MouseUp(object sender, MouseEventArgs e)
+        {
+
+            choose = false;
+        }
+
+        private void pictureBox2_MouseDown(object sender, MouseEventArgs e)
+        {
+
+            choose = true;
+
+
+        }
