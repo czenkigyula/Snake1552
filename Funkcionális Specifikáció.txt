@@ -31,8 +31,7 @@ Kontraszt - Egy kép legsötétebb (fekete) és legvilágosabb (fehér) árnyalatai köz
 
 Dombornyomás (Emboss) - Dombornyomott hatásúvá teszik a képet
 
-
-	A gombok forráskódja használatuk szerint külön txt.ben vannak felsorolva.
+A gombok forráskódja használatuk szerint külön txt.ben vannak felsorolva.
 
 
 Help(Help provider) - A gombokra eggyessével kattintva jobb klikkel lehet megnyitni a súgókat
