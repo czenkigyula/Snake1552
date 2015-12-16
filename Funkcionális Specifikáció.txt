@@ -5,3 +5,4 @@ Mentés - Az eredeti képet tudjuk elmenteni ugyanazon formátumban vagy más formát
 Szürkésítés - Ezzel a nyomógombbal az aktuális kép színét lehet megváltoztatni, fekete-fehér sémával tudjuk a képet módosítani.
 Homályosítás - Ezzel a funkcióval a megnyitott képet tudjuk a trackbaron számunkra megfelelõ mértékben/mélységben egyhomályosítani.
 Fényerõsség - Ezzel a funkcióval a kiválaszott kép fényerõsségét tudjuk módosítani, egy erre kijelölt 0-tól 100-ig terjedõ csúszkán.
+A gombok forráskódja használatuk szerint külön txt.ben vannak felsorolva.
