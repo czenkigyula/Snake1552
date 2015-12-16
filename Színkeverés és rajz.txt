@@ -5,13 +5,15 @@ private void pictureBox2_MouseMove(object sender, MouseEventArgs e)
                 Bitmap bmp = (Bitmap)pictureBox2.Image.Clone();
                 paintcolor = bmp.GetPixel(e.X, e.Y);
                 red.Value = paintcolor.R;
-                red.Value = paintcolor.G;
-                red.Value = paintcolor.B;
-                red.Value = paintcolor.A;
-                red.Value = paintcolor.R.ToString();
-                red.Value = paintcolor.G.ToString();
-                red.Value = paintcolor.B.ToString();
-                red.Value = paintcolor.A.ToString();
+                green.Value = paintcolor.G;
+                blue.Value = paintcolor.B;
+                alpha.Value = paintcolor.A;
+                redval.Text = paintcolor.R.ToString();
+                greenval.Text = paintcolor.G.ToString();
+                blueval.Text = paintcolor.B.ToString();
+                alphaval.Text = paintcolor.A.ToString();
+
+                pictureBox3.BackColor = paintcolor;
             }
         }
 
@@ -28,3 +30,5 @@ private void pictureBox2_MouseMove(object sender, MouseEventArgs e)
 
 
         }
+    }
+}
