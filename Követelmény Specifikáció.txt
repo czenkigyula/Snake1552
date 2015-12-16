@@ -1,22 +1,27 @@
 Követelmény Specifikáció
 
 Leírás:
+
 Szükség van egy olyan programra amivel képeket tudunk megnyitni, elmenteni, szerkeszteni a képek sémájának módosításával különbözõ tulajdonságok szerint.
-								  
+Ezáltal saját igényeinknek megfelelõen tudjunk személyre szabni az általunk kívánt képet.
+						
+		  
 A következõ funkcionális igények merülnek fel a program létrehozásának elõfeltételeként:
+
 - Könnyen kezelhetõ legyen,
-- Használata ne legyen idõigényes,
 - Szép megjelenésû, átlátható legyen,
-- A programmal tudjunk tükrözni, és különbözõ sémabeli módosítások (kontraszt, gamma, ivertálás, homályosítés, fényerõsség, szürkeárnyalat) legyenek elérhetõek,
+- A programmal tudjunk tükrözni, és különbözõ sémabeli módosítások (kontraszt, gamma, invertálás, homályosítás, fényerõsség, szürkeárnyalat) legyenek elérhetõek,
 - A program mûködjön hibamentesen, ne legyen lefagyás a program használata közben,
 - Személyemre szabottan lehessen használni,
-- Tartalmazzon a felhasználó számára információkat, melyek által gyorsan elsajátíthatjuk a program használatát.
+- Használata ne legyen idõigényes. Tartalmazzon a felhasználó számára információkat, melyek által gyorsan elsajátíthatjuk a program használatát.
 
 
-Architekturális igények
--
+Architekturális igények:
+- A programot elsõsorban személyes, otthoni használatra készüljön.
 
 Platform szerinti igények:
-- 
+- Fõ szempont, hogy a program a legtöbb operációs rendszeren (Linux, Windows, Mac OS) használható legyen, valamint megfelelõen optimizált.
+- Valamint a további fejlesztés során elérhetõ legyen a program mobil platformon is, elsõsorban Android alapú rendszeren, majd a következõekben iOS és Windows Phone rendszeren is.
+ 
 
-Követelménylista: Mentés másként, Megnyitni, Nagyítani, Kicsinyíteni, Kontraszt, fényerõsség állítása, 
+Programon belüli funkciók - Mentés másként, Megnyitás, Kontraszt, Fényerõsség, Invertálás, Szürkeárnyalat, Gamma, Homályosítás.
