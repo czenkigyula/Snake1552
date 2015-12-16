@@ -10,7 +10,7 @@ A következõ funkcionális igények merülnek fel a program létrehozásának elõfeltét
 
 - Könnyen kezelhetõ legyen,
 - Szép megjelenésû, átlátható legyen,
-- A programmal tudjunk tükrözni, és különbözõ sémabeli módosítások (kontraszt, gamma, invertálás, homályosítás, fényerõsség, szürkeárnyalat) legyenek elérhetõek,
+- A programmal tudjunk tükrözni, forgatni, nagyítani és különbözõ sémabeli módosítások (kontraszt, gamma, invertálás, homályosítás, fényerõsség, szürkeárnyalat) legyenek elérhetõek,
 - A program mûködjön hibamentesen, ne legyen lefagyás a program használata közben,
 - Személyemre szabottan lehessen használni,
 - Használata ne legyen idõigényes. Tartalmazzon a felhasználó számára információkat, melyek által gyorsan elsajátíthatjuk a program használatát.
@@ -18,10 +18,11 @@ A következõ funkcionális igények merülnek fel a program létrehozásának elõfeltét
 
 Architekturális igények:
 - A programot elsõsorban személyes, otthoni használatra készüljön.
+- Az összes tényezõ, amellyel módosításokat tudunk létrehozni, egyetlen blokkra hivatkozva valósulnak meg.
 
 Platform szerinti igények:
 - Fõ szempont, hogy a program a legtöbb operációs rendszeren (Linux, Windows, Mac OS) használható legyen, valamint megfelelõen optimizált.
 - Valamint a további fejlesztés során elérhetõ legyen a program mobil platformon is, elsõsorban Android alapú rendszeren, majd a következõekben iOS és Windows Phone rendszeren is.
  
 
-Programon belüli funkciók - Mentés másként, Megnyitás, Kontraszt, Fényerõsség, Invertálás, Szürkeárnyalat, Gamma, Homályosítás.
+Programon belüli funkciók - Mentés másként, Megnyitás, Forgatás, Nagyítás, Kontraszt, Fényerõsség, Invertálás, Szürkeárnyalat, Gamma, Homályosítás.
