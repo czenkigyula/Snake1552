@@ -12,6 +12,8 @@ Szürkésítés (GrayScale) - Ezzel a nyomógombbal az aktuális kép színét lehet megv
 Homályosítás - Ezzel a funkcióval a megnyitott képet tudjuk a trackbaron számunkra megfelelõ mértékben/mélységben
 	       egyhomályosítani.
 
+
+
 Fényerõsség - Ezzel a funkcióval a kiválaszott kép fényerõsségét tudjuk módosítani,
  	      egy erre kijelölt 0-tól 100-ig terjedõ csúszkán.
 
@@ -19,3 +21,8 @@ A gombok forráskódja használatuk szerint külön txt.ben vannak felsorolva.
 
 Invertálás- Lehessen a betöltött képet invertálni az az a negítvját leképezni és ezek után lehessen menteni a képet.
 	    Különbözõ hatások hozzáadása- például a dombornyomás
+
+Gamma-A gamma korrekció egy kép képpontjainak fényerejére, illetve a képpontok egyes színeinek élességére külön-külön végrehajtott, nem lineáris transzformáció. A gamma korrekció lényege az, hogy a kis- illetve nagy intenzitású képpontok fényerejét alig, a közepes intenzitású képpontok fényerejét pedig nagyobb mértékben növeli meg, vagyis a kép átlagos fényereje és kontrasztja növekszik (ezzel lehet pl. egy digitális kamerával felvett, és a hagyományos képcsövek torzítása miatt a megjelenítõnkön túl sötétnek látszó kép minõségén javítani). 
+
+Kontraszt-Egy kép legsötétebb (fekete) és legvilágosabb (fehér) árnyalatai közötti arány, viszonyszámmal kifejezve. 
+
